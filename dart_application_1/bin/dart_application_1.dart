@@ -51,8 +51,10 @@ void createTriangleNo1(int row){
       }
     }
     else {
-      if(i+1 > (row/2).round()-pengurang){
-        angka -= 1;
+      if(i+2 > (row/2).round()-pengurang){
+        if(i+1 != (row/2).round()-pengurang ){
+          angka -= 1;
+        }
       }
 
       else{
